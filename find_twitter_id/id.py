@@ -2,7 +2,7 @@
 import tweepy
 
 # Twitter API credentials
-bearer_token = 'AAAAAAAAAAAAAAAAAAAAAJM6yAEAAAAAUKARBnLa2kET%2BeTX3kzUs34Nx%2Bc%3D7QwNGBBL6WjcDHaavjg8VgOseA0JrYINQVfH2GjZRx0uBTybhF'
+bearer_token = '____' # Replace with Twitter Developer API key
 
 # Initialize Tweepy client
 client = tweepy.Client(bearer_token=bearer_token)
@@ -17,6 +17,6 @@ def get_twitter_user_id(username):
 
 # Example usage
 if __name__ == "__main__":
-    username = 'Flame__live'  # Replace with the actual Twitter username
+    username = '______'  # Replace with the actual Twitter username
     result = get_twitter_user_id(username)
     print(result)
